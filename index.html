@@ -9,7 +9,12 @@
 </head>
 <body>
     <main>
-        <section id="list">List</section>
+        <section id="list">
+            <div class="list-task">
+
+                <!-- render the task here-->
+            </div>
+        </section>
         <section id="form">
             <div class="mb-3">
                 <label class="form-label">Title</label>
@@ -29,7 +34,7 @@
             </div>
             <div class="mb-3">
                 <label class="form-label">Status</label>
-                <select class="form-control" id="txtStatus">
+                <select class="form-control" id="selStatus">
                     <option value="disabled">----Select Option---</option>
                     <option value="new">New</option>
                     <option value="in-progress">In progress</option>
@@ -39,7 +44,7 @@
             </div>
             <div class="mb-3">
                 <label class="form-label">Budget</label>
-                <input type="number" class="form-control" id="txtBudget"></input>
+                <input type="number" class="form-control" id="numBudget"></input>
             </div>  
             <button type="submit" id="btnSave">Save</button>
         </section>
@@ -48,7 +53,9 @@
 
     
 <!-- maintain the order-->
+
 <!--Order 1--> <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
-<!--Order 2--><script src="./scripts/app.js"></script>
+<!--Order 2--> <script src="scripts/task.js"> </script>
+<!--Order 3--><script src="./scripts/app.js"></script>
 </body>
 </html>
