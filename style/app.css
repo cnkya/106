@@ -31,7 +31,7 @@ main {
     border-radius: 8px;
     box-shadow: 0 2px 6px rgba(90, 61, 124, 0.2);
     width: 100%;
-    animation: slideInLeft 0.5s ease-in-out;
+    animation: slideInLeft 0.3s ease-in-out;
 }
 
 #list h2 {
@@ -48,7 +48,7 @@ main {
     border-radius: 8px;
     box-shadow: 0 2px 6px rgba(90, 61, 124, 0.2);
     width: 100%;
-    animation: slideInRight 0.5s ease-in-out;
+    animation: slideInRight 0.3s ease-in-out;
 }
 
 #form h2 {
