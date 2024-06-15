@@ -31,7 +31,7 @@ function saveTask(){//save the task to the local storage
         }
     });
 
-
+    
     //try to create a function to clear at the moment we hit the save button
     clearForm(taskToSave); //clears the form after saving
     
